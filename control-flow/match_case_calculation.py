@@ -1,4 +1,3 @@
-# match_case_calculator.py
 
 # Prompt for user input
 num1 = float(input("Enter the first number: "))
@@ -24,3 +23,4 @@ match operation:
             print(f"The result is {result}.")
     case _:
         print("Invalid operation. Please choose one of +, -, *, /.")
+
