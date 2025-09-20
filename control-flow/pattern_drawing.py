@@ -1,4 +1,4 @@
-# pattern_drawing.py
+
 
 # Prompt user for the size of the pattern
 size = int(input("Enter the size of the pattern: "))
@@ -13,3 +13,4 @@ while row < size:
         print("*", end="")  # Print * without moving to next line
     print()  # Move to the next line after finishing a row
     row += 1
+
