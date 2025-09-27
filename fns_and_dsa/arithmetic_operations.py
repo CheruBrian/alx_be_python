@@ -1,9 +1,7 @@
 # arithmetic_operations.py
 
-def perform_operation(num1: float, num2: float, operation: str):
-    """
-    Performs basic arithmetic operations.
-
+def main():
+    print("Arthmetic Operations")
     Parameters:
         num1 (float): The first number
         num2 (float): The second number
@@ -24,3 +22,4 @@ def perform_operation(num1: float, num2: float, operation: str):
         return num1 / num2
     else:
         return "Error: Invalid operation"
+
