@@ -1,7 +1,9 @@
 # arithmetic_operations.py
 
-def main():
-    print("Arthmetic Operations")
+def perform_operation(num1: float, num2: float, operation: str):
+    """
+    Performs basic arithmetic operations based on the given operation string.
+
     Parameters:
         num1 (float): The first number
         num2 (float): The second number
@@ -18,8 +20,7 @@ def main():
         return num1 * num2
     elif operation == "divide":
         if num2 == 0:
-            return "Error: Division by zero is not allowed"
+            return "Error: Division by zero"
         return num1 / num2
     else:
         return "Error: Invalid operation"
-
