@@ -1,6 +1,8 @@
 #simple_calculator.py
+import unittest
+from simple_caculator import SimpleCalculator
 
-class SimpleCalculator:
+class TestSimplecalculator(unittest.TestCase):
   """A simple calculator class that supports basic arithmetic operations."""
 
  def add(self, a, b):
@@ -21,3 +23,4 @@ return a -b
      return None
      return a / b
      
+
